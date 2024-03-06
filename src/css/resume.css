@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+}
+
+.pdf-file {
+    height: 500px;
+    width: 70%;
+    align-self: center;
+    margin-bottom: 40px;
+}
