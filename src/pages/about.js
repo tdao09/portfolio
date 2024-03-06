@@ -1,4 +1,5 @@
-import Navbar from '../components/navbar';
+import Navbar from '../components/navbar.js';
+import Footer from '../components/footer.js'
 import '../css/about.css'
 export default function About() {
     return (
@@ -22,6 +23,7 @@ export default function About() {
         <h1 className="lab-heading">Professional Experience</h1>
 
         <p className="lab-experience">From January - August 2023, I was a <strong>research assistant</strong> at the Language, Cognition, & Development Lab under the University of Washington's Psychology department. During my time at the lab, I was able run experiments with parents and 11-month old infants, edit and transcribe videos for analysis, and perform data transformation & visualization with the R rogramming language. Additionally, I wrote several technical documentations using R markdown for the rest of the lab.</p>
+        <Footer />
        </section>
     );
 }

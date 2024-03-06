@@ -1,0 +1,40 @@
+footer {
+    background-color: lightblue;
+    height: 60px;
+    bottom: 0;
+    display: flex;
+}
+
+footer {
+    margin-top: auto;
+    padding: 20px;
+  }
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul li {
+    margin-left: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Helvetica';
+    font-size: 18px;
+}
+
+div.list-div {
+    margin-left: auto;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+p.copy {
+    text-align: center;
+}

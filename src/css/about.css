@@ -1,3 +1,14 @@
+
+.container {
+    display: flex;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make section at least full height of viewport */
+}
+
 img.self-portrait {
     height: 240px;
     width: 180px;
@@ -17,10 +28,6 @@ p {
     color: black;
 }
 
-.container {
-    display: flex;
-}
-
 .school-experience {
     margin: 10px;
 }
@@ -38,3 +45,6 @@ h1.lab-heading {
 p.lab-experience {
     margin: 10px;
 }
+
+
+
