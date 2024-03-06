@@ -1,11 +1,11 @@
 
-import style from '../css/navbar.css';
+import '../css/navbar.css';
 import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
     return(
         <nav className="navbar">
-            <div>
+            <div className="nav-title">
             <NavLink className="nav-name" to="/">Travon Dao</NavLink>
             </div>
             <div className="nav-list">
@@ -17,7 +17,6 @@ export default function Navbar() {
                     <li><NavLink to="/resume">Resume</NavLink></li>
             </ul>
             </div>
-        
         </nav>
     );
 }

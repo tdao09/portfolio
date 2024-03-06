@@ -1,0 +1,40 @@
+img.self-portrait {
+    height: 240px;
+    width: 180px;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1.title {
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Roboto', 'Lato', 'Helvetica';
+    color: black;
+}
+
+.container {
+    display: flex;
+}
+
+.school-experience {
+    margin: 10px;
+}
+
+.image {
+    margin: 10px;
+}
+
+h1.lab-heading {
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+p.lab-experience {
+    margin: 10px;
+}

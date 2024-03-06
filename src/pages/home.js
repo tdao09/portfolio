@@ -6,7 +6,6 @@ export default function Home() {
        <section>
         <Navbar />
         <h1>Home</h1>
-        
        </section>
     );
 }
