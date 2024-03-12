@@ -8,7 +8,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Home() {
     return (
        <section>
-        <button type="button" className="btn btn-primary" width="500px">Primary Button</button>
         <Navbar />
         <div className="intro-container">
             <div className="intro-text">
