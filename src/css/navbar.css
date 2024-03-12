@@ -11,6 +11,7 @@
     margin: 0;
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 5px;
 }
 
 .navbar ul li {
@@ -36,6 +37,7 @@
 .navbar .nav-name {
     margin-left: auto;
     white-space: nowrap;
+    margin-bottom: 5px;
 }
 
 .nav-name {
