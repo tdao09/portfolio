@@ -8,8 +8,8 @@ export default function Resume() {
     return(
         <section>
             <Navbar />
-            <h1>Resume (reminder to change to most up to date)</h1>
-            <iframe className="pdf-file" src="./assets/Travon Dao Resume.pdf" />
+            <h1 className="resume">Resume (reminder to change to most up to date)</h1>
+            <iframe className="pdf-file" src="./assets/Travon Dao Resume.pdf" title="resume"/>
             <Footer />
         </section>
     );

@@ -1,12 +1,12 @@
 //import './App.css';
-
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/home.js';
 import About from './pages/about.js';
 import Resume from './pages/resume.js';
 import Projects from './pages/projects.js';
 
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
-function App() {
+import {Routes, Route} from 'react-router-dom';
+export default function App() {
   return (
     <Routes>
         <Route path="/" element={<Home />}/>
@@ -16,5 +16,3 @@ function App() {
     </Routes>
   );
 }
-
-export default App;
