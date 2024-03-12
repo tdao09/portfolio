@@ -15,6 +15,7 @@
 
 .navbar ul li {
     margin-left: 10px;
+    margin: 5px;
 }
 
 .navbar ul li a {
@@ -42,6 +43,10 @@
     text-decoration: none;
     font-weight: bold;
     color: black;
+}
+
+.nav-title {
+    margin-left: 5px;
 }
 
 .nav-list {
