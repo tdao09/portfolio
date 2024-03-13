@@ -24,6 +24,14 @@ footer ul li a {
     font-size: 18px;
 }
 
+.footer-container {
+    display: flex;
+}
+
+.footer-container p {
+    margin: 5px;
+}
+
 .envelope-logo, .linkedin-logo, .github-logo {
     width: 25px;
     height: 25px;

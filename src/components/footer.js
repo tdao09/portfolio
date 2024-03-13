@@ -5,7 +5,11 @@ export default function Footer() {
     return(
         <footer className="footer">
             <div className="copy-div">
-                <p className="copy">&copy;Travon Dao 2024</p>
+                <div className="footer-container">
+                    <p className="copy">&copy;Travon Dao 2024</p>
+                    <p>| Made with React</p>
+                </div>
+             
             </div>
             <div className="list-div">
                 <ul>
