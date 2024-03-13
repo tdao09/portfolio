@@ -24,6 +24,11 @@ footer ul li a {
     font-size: 18px;
 }
 
+.envelope-logo, .linkedin-logo, .github-logo {
+    width: 25px;
+    height: 25px;
+}
+
 div.list-div {
     margin-left: auto;
 }

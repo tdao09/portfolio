@@ -6,7 +6,7 @@ export default function About() {
        <section>
         <Navbar />
         <h1 className="title">Human-Centered Designer & Full-Stack Developer</h1>
-        <div className="container">
+        <div className="about-container">
             <div className="school-experience">
                 <p>I graduated from the University of Washington, Seattle where I studied <strong>Informatics</strong> and <strong>Psychology</strong>. Given my multidisciplinary background, I am equipped to design for people with careful consideration for how they think, process information, and make decisions.</p>
 

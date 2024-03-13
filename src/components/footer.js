@@ -9,10 +9,10 @@ export default function Footer() {
             </div>
             <div className="list-div">
                 <ul>
-                    <li><a href="mailto:travondao@gmail.com">travondao@gmail.com</a></li>
-                    <li><a href="https://www.linkedin.com/in/travon-dao-3490221b3/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-                    <li><a href="https://github.com/tdao09" target="_blank" rel="noreferrer">GitHub</a></li>
-                </ul>
+                    <li><a href="mailto:travondao@gmail.com"><FaEnvelope className="envelope-logo"/></a></li>
+                    <li> <a href="https://www.linkedin.com/in/travon-dao-3490221b3/" target="_blank" rel="noreferrer"><FaLinkedin className="linkedin-logo"/></a></li>
+                    <li><a href="https://github.com/tdao09" target="_blank" rel="noreferrer"><FaGithub className="github-logo"/></a></li>
+                    </ul>
             </div>
         </footer>
     );

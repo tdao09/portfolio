@@ -1,6 +1,11 @@
 
-.container {
+.about-container {
     display: flex;
+    padding: 0;
+}
+
+.about-container div {
+    flex-grow: 1;
 }
 
 section {
@@ -30,6 +35,7 @@ p {
 
 .school-experience {
     margin: 10px;
+
 }
 
 .image {
