@@ -1,14 +1,11 @@
 footer {
     background-color: lightblue;
     height: 60px;
-    bottom: 0;
     display: flex;
-}
-
-footer {
     margin-top: auto;
     padding: 20px;
-  }
+}
+
 
 footer ul {
     list-style-type: none;

@@ -1,4 +1,5 @@
 import '../css/footer.css';
+import {FaLinkedin, FaGithub, FaEnvelope} from 'react-icons/fa'
 
 export default function Footer() {
     return(
@@ -13,7 +14,6 @@ export default function Footer() {
                     <li><a href="https://github.com/tdao09" target="_blank" rel="noreferrer">GitHub</a></li>
                 </ul>
             </div>
-            
         </footer>
     );
 }
