@@ -16,7 +16,7 @@ export default function Home() {
                 <p>Graduated from the University of Washington, Seattle with B.S. in Informatics and B.A. in Psychology</p>
             </div>
             <div className="intro-pic">
-                <img className="Travon-portrait-home" src="./img/Travon.jpg" alt="Travon Dao"/>
+                <img className="Travon-portrait-home" src="./img/travon.jpg" alt="Travon Dao"/>
             </div>
         </div>
 
