@@ -1,0 +1,29 @@
+[
+    {
+        "name" : "Prompty",
+        "languages": "JavaScript",
+        "frameworks": "React Native",
+        "skills": "Mobile development, user research",
+        "caption": "blah blah blah",
+        "description": "This is the description",
+        "thumbnail": "./img/travon.jpg"
+    },
+    {
+        "name" : "Hate Crime Trends",
+        "languages": "R",
+        "frameworks": "tidyr, dplyr",
+        "skills": "Data Science",
+        "caption": "blah blah blah",
+        "description": "This is the description",
+        "thumbnail": "./img/travon.jpg"
+    },
+    {
+        "name" : "Washington State SQL Database",
+        "languages": "SQL",
+        "frameworks": "",
+        "skills": "Data modeling",
+        "caption": "blah blah blah",
+        "description": "This is the description",
+        "thumbnail": "./img/travon.jpg"
+    }
+]

@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="copy-div">
                 <div className="footer-container">
                     <p className="copy">&copy;Travon Dao 2024</p>
-                    <p>| Made with React</p>
+                    <p>| Made with React & Bootstrap</p>
                 </div>
              
             </div>

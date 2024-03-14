@@ -66,3 +66,8 @@ align-items: center;
     width: 50px;
     margin: 2px;
 }
+
+
+.projects-container {
+    display: flex;
+}

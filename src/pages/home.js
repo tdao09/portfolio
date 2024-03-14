@@ -3,8 +3,19 @@ import Navbar from '../components/navbar.js';
 import Footer from '../components/footer.js';
 import '../css/home.css';
 //import * as ReactIcons from 'react-icons/fa'
+import projectData from '../data/projects.json';
+import ProjectCard from '../components/project-card.js';
+
+
 
 export default function Home() {
+
+    let projectsArray = projectData.map((currentProjectData) => {
+        return(
+            <ProjectCard data={currentProjectData}/>
+        );
+    });
+
     return (
        <section>
         <Navbar />
@@ -20,7 +31,7 @@ export default function Home() {
                     <img className="sql-logo" src="./assets/logos/sql.png" alt="sql logo"/>
                     <img className="html-logo" src="./assets/logos/html.png" alt="html logo"/>
                     <img className="css-logo"src="./assets/logos/css.png" alt="css logo"/>
-                    <img classname="js-logo" src="./assets/logos/javascript.png" alt="javascript logo"/>
+                    <img className="js-logo" src="./assets/logos/javascript.png" alt="javascript logo"/>
                     <img className="node-logo" src="./assets/logos/node.png" alt="node logo"/>
                     <img className="express-logo" src="./assets/logos/express.png" alt="express logo"/>
                     <img className="react-logo" src="./assets/logos/react.png" alt="react logo"/>
@@ -35,9 +46,9 @@ export default function Home() {
 
         <div className="project-section">
             <h1 className="projects">Favorite Projects</h1>
-            <div className="project-container">
-                
-
+         
+            <div className="projects-container">
+              {projectsArray}
             </div>
         </div>
 
