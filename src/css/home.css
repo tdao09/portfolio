@@ -1,44 +1,33 @@
 h1.intro-title {
-    margin: 35px;
-    font-size: 25px;
-}
-
-.intro-text p {
+    font-size: 35px;
     margin: 35px;
 }
 
 .intro-text p {
-    font-size: 16px;
+    margin: 35px;
+    font-size: 18px;
+}
+
+div.intro-container {
+    display: flex;
 }
 
 img.Travon-portrait-home {
     height: 350px;
     width: 300px;
-    border-radius: 15px;
     display: block;
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 15px;
-
 }
 
-/* screen sizes 650 or wider */
-@media (min-width: 850px) {
-    div.intro-container {
-        display: flex;
-    }
-
-    h1.intro-title {
-        font-size: 35px;
-    }
-    .intro-text p {
-        font-size: 18px;
-    }
-    
-    .intro-text, .intro-pic {
-        flex-basis: 50%;
-        flex-grow: 1;
-    }
+img.intro-text-img {
+    display: none;
+}
+  
+.intro-text, .intro-pic {
+    flex-basis: 50%;
+    flex-grow: 1;
 }
 
 h1.projects {
@@ -47,27 +36,75 @@ h1.projects {
 }
 
 
-div.skills {
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-
-
-.java-logo, .python-logo, .sql-logo, .html-logo, .css-logo, .js-logo, .node-logo, .express-logo, .mongo-logo {
-    height: 50px;
-    width: 50px;
-    margin: 2px;
-}
-
-.react-logo {
-    height: 45px;
-    width: 50px;
+.java-logo, .python-logo, .sql-logo, .html-logo, .css-logo, .js-logo, .node-logo, .express-logo, .react-logo, .mongo-logo {
+    height: 60px;
+    width: 60px;
     margin: 2px;
 }
 
 
 .projects-container {
     display: flex;
+    margin-bottom: 10px;
 }
+
+div.skills {
+    margin-left: 20px;
+ }
+ 
+div.skills-row-1, div.skills-row-2 {
+    display: inline-block;
+    justify-self: center;
+}
+
+
+
+@media (max-width: 680px) {
+    div.intro-container {
+        display: block;
+    }
+
+    .intro-text p {
+        font-size: 16px;
+    }
+
+    h1.intro-title {
+        margin: 35px;
+        font-size: 25px;
+    }
+    div.skills {
+        display: block;
+       
+    }
+
+    img.intro-text-img {
+        height: 300px;
+        width: 250px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+
+    img.Travon-portrait-home {
+      display: none;
+    }
+    .intro-title {
+        text-align: center
+    }
+
+    div.skills {
+       display: flex;
+       justify-content: center;
+       text-align: center;
+    }
+
+    .java-logo, .python-logo, .sql-logo, .html-logo, .css-logo, .js-logo, .node-logo, .express-logo, .react-logo, .mongo-logo {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+   
+
+

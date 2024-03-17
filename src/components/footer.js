@@ -7,14 +7,15 @@ export default function Footer() {
             <div className="copy-div">
                 <div className="footer-container">
                     <p className="copy">&copy;Travon Dao 2024</p>
-                    <p>| Made with React & Bootstrap</p>
+                    <p className="separator">|</p>
+                    <p>Made with React & Bootstrap</p>
                 </div>
              
             </div>
             <div className="list-div">
-                <a href="mailto:travondao@gmail.com"><FaEnvelope className="envelope-logo"/></a>
-                <a href="https://www.linkedin.com/in/travon-dao-3490221b3/" target="_blank" rel="noreferrer"><FaLinkedin className="linkedin-logo"/></a>
-                <a href="https://github.com/tdao09" target="_blank" rel="noreferrer"><FaGithub className="github-logo"/></a>
+                <a href="mailto:travondao@gmail.com"><FaEnvelope className="envelope-logo" alt="Envelope logo"/></a>
+                <a href="https://www.linkedin.com/in/travon-dao-3490221b3/" target="_blank" rel="noreferrer"><FaLinkedin className="linkedin-logo" alt="Linkedin logo"/></a>
+                <a href="https://github.com/tdao09" target="_blank" rel="noreferrer"><FaGithub className="github-logo" alt="Github logo"/></a>
             </div>
         </footer>
     );

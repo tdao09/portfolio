@@ -34,30 +34,57 @@
     text-decoration: underline;
 }
 
-.navbar .nav-name {
-    margin-left: auto;
+.navbar .nav-title {
+    margin-left: 10px;
     white-space: nowrap;
     margin-bottom: 5px;
 }
 
-.nav-name {
+.nav-title {
     font-size: 25px;
     text-decoration: none;
     font-weight: bold;
     color: black;
 }
 
-.nav-title {
-    margin-left: 5px;
-}
-
-.nav-list {
+ul.nav-list {
     margin-left: auto;
     display: flex;
     align-items: center;
+} 
+
+
+.hamburger {
+    display: none;
 }
 
-.nav-title {
-    display: flex;
-    align-items: center;
-}
+/* height and width of 26px will preserve margins of nav-title */
+@media (max-width: 650px) {
+    .hamburger {
+        display: inline-block;
+        width: 30px; 
+        height: 30px;
+        margin: 5px;
+        color: black;
+    }
+
+     ul.nav-list {
+        display: none;
+    }
+
+    .nav-title {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+  
+    ul.nav-open {
+        position: fixed;
+        display: block;
+        margin: 0px;
+        background-color: lightblue;
+        top: 50px;
+        right: -140px;
+        width: 300px;
+        height: 100vh;
+    }
+ }

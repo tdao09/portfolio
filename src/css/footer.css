@@ -6,11 +6,6 @@ footer {
     padding: 20px;
 }
 
-footer ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-}
 
 .list-div a {
     margin-left: 10px;
@@ -48,3 +43,34 @@ p.copy {
     text-align: center;
 }
 
+@media (max-width: 680px) {
+    footer {
+        height: 100px;
+      
+    }
+
+    .envelope-logo, .linkedin-logo, .github-logo {
+        height: 40px;
+        width: 40px;
+
+    }
+
+    .footer-container {
+        display: block;
+    }
+
+    p.separator {
+        display: none;
+    }
+
+    p.copy {
+        text-align: left;
+    }
+
+    .list-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
