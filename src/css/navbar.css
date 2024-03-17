@@ -58,6 +58,9 @@ ul.nav-list {
     display: none;
 }
 
+a.resume-bottom {
+    height: 200px;
+}
 /* height and width of 26px will preserve margins of nav-title */
 @media (max-width: 650px) {
     .hamburger {

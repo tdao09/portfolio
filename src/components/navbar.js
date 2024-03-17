@@ -11,6 +11,8 @@ export default function Navbar() {
         toggleNav(!showNav);
     }
 
+
+    // <li><NavLink to="/resume">Resume</NavLink></li> 
     return(
         <nav className="navbar">
                 <NavLink className="nav-title" to="/">Travon Dao</NavLink>
@@ -18,7 +20,7 @@ export default function Navbar() {
                     <li><NavLink to="/">Home</NavLink></li>
                     <li><NavLink to="/about">About</NavLink></li>
                     <li><NavLink to="/projects">Projects</NavLink></li>
-                    <li><NavLink to="/resume">Resume</NavLink></li>
+                    <li><a className="resume-button" href="./assets/travon-dao-resume.pdf">Resume</a></li>
                 </ul>
                 <FaBars className={`hamburger ${showNav ? "hamburger-open" : ""}`} alt="More options/
                         hamburger icon" onClick={handleHamburgerTap}/>
