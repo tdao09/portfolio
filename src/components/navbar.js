@@ -13,7 +13,6 @@ export default function Navbar() {
 
     return(
         <nav className="navbar">
-    
                 <NavLink className="nav-title" to="/">Travon Dao</NavLink>
                 <ul className={`nav-list ${showNav ? "nav-open" : ""}`}>
                     <li><NavLink to="/">Home</NavLink></li>
@@ -21,7 +20,7 @@ export default function Navbar() {
                     <li><NavLink to="/projects">Projects</NavLink></li>
                     <li><NavLink to="/resume">Resume</NavLink></li>
                 </ul>
-                <FaBars className="hamburger" alt="More options/
+                <FaBars className={`hamburger ${showNav ? "hamburger-open" : ""}`} alt="More options/
                         hamburger icon" onClick={handleHamburgerTap}/>
         </nav>
     );
