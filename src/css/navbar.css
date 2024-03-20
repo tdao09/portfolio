@@ -86,8 +86,8 @@ a.resume-bottom {
         display: block;
         background-color: lightblue;
         top: 50px;
-        right: -140px;
-        width: 250px; 
+        right: 0px;
+        width: 120px; 
         /* or height: 100vh but it doesn't span to 
         the bottom when you scroll*/
     }
