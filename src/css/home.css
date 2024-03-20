@@ -42,6 +42,11 @@ h1.projects {
     margin: 2px;
 }
 
+.react-logo {
+    height: 60px;
+    width: 65px;
+}
+
 
 .projects-container {
     display: flex;
@@ -56,7 +61,6 @@ div.skills-row-1, div.skills-row-2 {
     display: inline-block;
     justify-self: center;
 }
-
 
 
 @media (max-width: 680px) {
@@ -99,10 +103,15 @@ div.skills-row-1, div.skills-row-2 {
        text-align: center;
     }
 
-    .java-logo, .python-logo, .sql-logo, .html-logo, .css-logo, .js-logo, .node-logo, .express-logo, .react-logo, .mongo-logo {
+    .java-logo, .python-logo, .sql-logo, .html-logo, .css-logo, .js-logo, .node-logo, .express-logo, .mongo-logo {
         height: 40px;
         width: 40px;
     }
+
+   .react-logo {
+        height: 40px;
+        width: 45px;
+   }
 }
 
    
