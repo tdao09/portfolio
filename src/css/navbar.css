@@ -86,10 +86,26 @@ a.resume-bottom {
         display: block;
         background-color: lightblue;
         top: 50px;
-        right: 0px;
-        width: 120px; 
+        width: 100%; 
         /* or height: 100vh but it doesn't span to 
         the bottom when you scroll*/
+    }
+
+
+    ul.nav-open li {
+        border-bottom: 0.5px solid gray ;
+    }
+
+    ul.nav-open li:first-child{
+        border-top: 0.5px solid gray;
+    }
+
+    ul.nav-open li {
+        text-align: center;
+    }
+
+    ul.nav-open :nth-child(4) {
+        border-bottom: 0px;
     }
 
     .hamburger-open {
