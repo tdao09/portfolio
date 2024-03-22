@@ -7,7 +7,7 @@ import projectData from '../data/projects.json';
 import ProjectCard from '../components/project-card.js';
 
 export default function Home() {
-    projectData = projectData.slice(0, 4);
+    projectData = projectData.slice(0, 3);
 
     let projectsArray = projectData.map((currentProjectData) => {
         return(
