@@ -26,10 +26,47 @@
         "urlParam": "Prison-Database",
         "languages": "SQL",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        
+       
         "skills": "Data modeling",
         "caption": "blah blah blah",
         "description": "This is the description",
         "thumbnail": "./img/travon.jpg"
+    },
+    {
+        "name": "Nourished Kings",
+        "urlParam": "Nourished-Kings",
+        "languages": "JavaScript, HTML, CSS",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+       
+        "skills": "Front-end Development",
+        "caption": "blah blah blah",
+        "description": "This is the description",
+        "thumbnail": "./img/travon.jpg"
+    },
+    {
+        "name": "West Coast Tourist Sites",
+        "urlParam": "West-Coast-Tourist-Sites",
+        "languages": "JavaScript, HTML, CSS",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Frameworks": "React",
+        "skills": "Front-end Development, Firebase",
+        "caption": "blah blah blah",
+        "description": "This is the description",
+        "thumbnail": "./img/travon.jpg"
+    },
+    {
+        "name": "Rate My Study Spot",
+        "urlParam": "Rate-My-Study-Spot",
+        "languages": "JavaScript, HTML, CSS",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Frameworks": "Node.js, Express.js",
+        "skills": "Front-end Development, Back-end Development, MongoDB",
+        "caption": "blah blah blah",
+        "description": "This is the description",
+        "thumbnail": "./img/travon.jpg"
     }
-]
+ 
+ 
+ ]
+ 
+ 
