@@ -6,7 +6,7 @@ import projectsData from '../data/projects.json';
 
 export default function Projects() {
     let projectsArray = projectsData.map((projectData) => {
-        return <ProjectCard data={projectData} id={projectData.name} />
+        return <ProjectCard data={projectData} key={projectData.name} />
     });
 
     return(
