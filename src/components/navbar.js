@@ -2,7 +2,7 @@
 import '../css/navbar.css';
 import { NavLink } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 export default function Navbar() {
     const [showNav, toggleNav] = useState(false);

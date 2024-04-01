@@ -1,8 +1,8 @@
-import { useSearchParams, useParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import projectsData from '../data/projects.json'; 
 
-export default function() {
+export default function Project() {
   
     const [searchParams] = useSearchParams();
     let projectName = searchParams.get("name");
@@ -11,7 +11,7 @@ export default function() {
     useEffect(()=> {
         const projectData = projectsData.find(project => project.urlParam === projectName);
         setProjectData(projectData);
-    }, [searchParams]);
+    }, [searchParams, projectName]);
    
     if (!projectData) {
         return(
