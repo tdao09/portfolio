@@ -19,7 +19,8 @@ img.self-portrait {
     width: 180px;
     border-radius: 15px;
     display: block;
-    margin: 0 auto;
+    margin: 5px;
+    float: right;
 }
 
 h1.title {
@@ -34,10 +35,6 @@ p {
 }
 
 .school-experience {
-    margin: 10px;
-}
-
-.image {
     margin: 10px;
 }
 
