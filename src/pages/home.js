@@ -21,7 +21,7 @@ export default function Home() {
         <div className="intro-container">
             <div className="intro-text">
                 <h1 className="intro-title">Hello, my name is Travon</h1>
-                <img className="intro-text-img" src="./img/travon.jpg" alt="Travon Dao headshot"/>
+                <img className="intro-text-img" src="/img/travon.jpg" alt="Travon Dao headshot"/>
                 <p>Full-stack web developer with experience in UX Design and Human-Subjects Research</p>
                 <p>Graduated from the University of Washington, Seattle with B.S. in Informatics and B.A. in Psychology</p>
 

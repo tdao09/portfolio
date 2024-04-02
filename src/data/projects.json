@@ -8,7 +8,7 @@
         "skills": "Mobile development, user research",
         "caption": "blah blah blah",
         "description": "This is the description",
-        "thumbnail": "./img/travon.jpg"
+        "thumbnail": "/img/travon.jpg"
     },
     {
         "name": "Hate Crime Trends",
@@ -19,7 +19,7 @@
         "skills": "Data Science",
         "caption": "blah blah blah",
         "description": "This is the description",
-        "thumbnail": "./img/travon.jpg"
+        "thumbnail": "/img/travon.jpg"
     },
     {
         "name": "Prison Database",
@@ -30,7 +30,7 @@
         "skills": "Data modeling",
         "caption": "blah blah blah",
         "description": "This is the description",
-        "thumbnail": "./img/travon.jpg"
+        "thumbnail": "/img/travon.jpg"
     },
     {
         "name": "Nourished Kings",
@@ -41,7 +41,7 @@
         "skills": "Front-end Development",
         "caption": "blah blah blah",
         "description": "This is the description",
-        "thumbnail": "./img/travon.jpg"
+        "thumbnail": "/img/travon.jpg"
     },
     {
         "name": "West Coast Tourist Sites",
@@ -52,7 +52,7 @@
         "skills": "Front-end Development, Firebase",
         "caption": "blah blah blah",
         "description": "This is the description",
-        "thumbnail": "./img/travon.jpg"
+        "thumbnail": "/img/travon.jpg"
     },
     {
         "name": "Rate My Study Spot",
@@ -63,7 +63,7 @@
         "skills": "Front-end Development, Back-end Development, MongoDB",
         "caption": "blah blah blah",
         "description": "This is the description",
-        "thumbnail": "./img/travon.jpg"
+        "thumbnail": "/img/travon.jpg"
     }
  
  
