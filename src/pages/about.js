@@ -15,7 +15,7 @@ export default function About() {
                 <p>I am extremely passionate in the empowerment of marginalized communities. As the older brother of a person with autism, I dedicate myself towards finding ways to make life <strong>easier</strong> for others through creative problem-solving and design.</p>
            </div>
            <div className="image">
-                <img className="self-portrait" src="/img/travon.jpg" alt="Travon Dao"/>
+                <img className="self-portrait" src="./img/travon.jpg" alt="Travon Dao"/>
            </div>
     
         </div>
