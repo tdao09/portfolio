@@ -8,7 +8,7 @@
         "skills": "Mobile development, user research",
         "caption": "blah blah blah",
         "description": "This is the description",
-        "thumbnail": "/img/travon.jpg"
+        "thumbnail": "./img/travon.jpg"
     },
     {
         "name": "Hate Crime Trends",
