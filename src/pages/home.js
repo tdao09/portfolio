@@ -52,16 +52,22 @@ export default function Home() {
 
 
         <div className="skills2">
-            <img className="java-logo" src="./assets/logos/java.png" alt="java logo"/>
-            <img className="python-logo" src="./assets/logos/python.png" alt="python logo"/>
-            <img className="sql-logo" src="./assets/logos/sql.png" alt="sql logo"/>
-            <img className="html-logo" src="./assets/logos/html.png" alt="html logo"/>
-            <img className="css-logo"src="./assets/logos/css.png" alt="css logo"/>
-            <img className="js-logo" src="./assets/logos/javascript.png" alt="javascript logo"/>
-            <img className="node-logo" src="./assets/logos/node.png" alt="node logo"/>
-            <img className="express-logo" src="./assets/logos/express.png" alt="express logo"/>
-            <img className="react-logo" src="./assets/logos/react.png" alt="react logo"/>
-            <img className="mongo-logo" src="./assets/logos/mongo.png" alt="mongoDB logo"/>
+        <div className="skills-row-1">
+                        <img className="java-logo" src="./assets/logos/java.png" alt="java logo"/>
+                        <img className="python-logo" src="./assets/logos/python.png" alt="python logo"/>
+                        <img className="sql-logo" src="./assets/logos/sql.png" alt="sql logo"/>
+                        <img className="html-logo" src="./assets/logos/html.png" alt="html logo"/>
+                        <img className="css-logo"src="./assets/logos/css.png" alt="css logo"/>
+                    </div>
+
+                    <div className="skills-row-2">
+                        <img className="js-logo" src="./assets/logos/javascript.png" alt="javascript logo"/>
+                        <img className="node-logo" src="./assets/logos/node.png" alt="node logo"/>
+                        <img className="express-logo" src="./assets/logos/express.png" alt="express logo"/>
+                        <img className="react-logo" src="./assets/logos/react.png" alt="react logo"/>
+                        <img className="mongo-logo" src="./assets/logos/mongo.png" alt="mongoDB logo"/>
+                    </div>
+           
         </div>
         <div className="project-section">
             <h1 className="projects">Favorite Projects</h1>
