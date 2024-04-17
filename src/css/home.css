@@ -73,7 +73,7 @@ div.skills2 {
     margin-top: 10px;
 }
 
-@media(max-width: 750px) {
+@media(max-width: 760px) {
     div.skills {
        display: none;
     }
@@ -138,23 +138,14 @@ div.skills2 {
         height: 40px;
         width: 45px;
    }
-
- 
-
+   
+   .projects-container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
 }
 
-@media (max-width: 540px) {
-    .projects-container {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
 
-@media (max-width: 460px) {
-    div.skills {
-        display: none;
-    }
-}
 
 
 
