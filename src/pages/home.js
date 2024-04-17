@@ -52,7 +52,7 @@ export default function Home() {
 
 
         <div className="skills2">
-        <div className="skills-row-1">
+           <div className="skills-row-1">
                         <img className="java-logo" src="./assets/logos/java.png" alt="java logo"/>
                         <img className="python-logo" src="./assets/logos/python.png" alt="python logo"/>
                         <img className="sql-logo" src="./assets/logos/sql.png" alt="sql logo"/>

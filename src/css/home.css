@@ -63,7 +63,6 @@ div.skills {
  
 div.skills-row-1, div.skills-row-2 {
     display: inline-block;
-    justify-self: center;
 }
 
 div.skills2 {
@@ -87,6 +86,12 @@ div.skills2 {
         justify-content: center;
         margin-left: 0px;
     }
+
+    .skills {
+        align-self: center;
+        justify-content: center;
+        display: flex;
+    }
 }
 
 @media (max-width: 680px) {
@@ -107,6 +112,10 @@ div.skills2 {
         display: block;
     } */
 
+    div.skills-row-1, div.skills-row-2 {
+        display: block;
+        justify-self: center;
+    }
     img.intro-text-img {
         height: 300px;
         width: 250px;
@@ -130,23 +139,26 @@ div.skills2 {
     } */
 
     .java-logo, .python-logo, .sql-logo, .html-logo, .css-logo, .js-logo, .node-logo, .express-logo, .mongo-logo {
-        height: 40px;
-        width: 40px;
+        height: 55px;
+        width: 55px;
     }
 
    .react-logo {
-        height: 40px;
-        width: 45px;
+        height: 55px;
+        width: 60px;
    }
-
-
-   
    .projects-container {
     flex-wrap: wrap;
     justify-content: center;
 }
 }
 
+@media (max-width: 594px) {
+    div.skills2 {
+        display: block;
+        margin: auto;
+    }
+}
 
 
 

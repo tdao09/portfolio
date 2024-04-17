@@ -52,7 +52,7 @@ p.project-description {
   
 @media (max-width: 680px) {
     .project-card {
-        width: 360px;
+        width: 335px;
         height: 285px;
         margin: 5px;
     }
