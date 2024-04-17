@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className="footer-container">
                     <p className="copy">&copy;Travon Dao 2024</p>
                     <p className="separator">|</p>
-                    <p>Made with React & Bootstrap</p>
+                    <p>Made with React</p>
                 </div>
              
             </div>

@@ -11,7 +11,7 @@ export default function Home() {
 
     let projectsArray = projectDataSliced.map((currentProjectData) => {
         return(
-            <ProjectCard data={currentProjectData} key={currentProjectData.name}/>
+            <ProjectCard className={currentProjectData.name} data={currentProjectData} key={currentProjectData.name}/>
         );
     });
 

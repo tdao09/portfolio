@@ -39,10 +39,11 @@ p.project-description {
 .project-card {
     transition: box-shadow 0.3s ease;
   }
-  
-  .project-card:hover {
+
+.project-card:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  }
+}
+  
 
 @media (max-width: 680px) {
     .project-card {
@@ -63,7 +64,14 @@ p.project-description {
 
     p.project-description {
         font-family: 'Segoe UI';
-      
         font-size: 14px;
     }
+}
+
+
+@media (max-width: 520px) {
+   .project-card {
+    width: 300px;
+    height: 240px;
+}
 }
