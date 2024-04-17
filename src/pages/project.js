@@ -1,6 +1,8 @@
 import { useSearchParams } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import projectsData from '../data/projects.json'; 
+import Navbar from '../components/navbar.js';
+import Footer from '../components/footer.js';
 
 export default function Project() {
   
@@ -21,12 +23,15 @@ export default function Project() {
         );
     } else {
         return(
-            <div>
+         
+            <section>
+                <Navbar />
                 <h1>{projectData.name}</h1>
                 <p>{projectData.paragraph}</p>
                 <p>I used these languages: {projectData.languages}</p>
                 <p>{projectData.frameworks? "I used these frameworks: " + projectData.frameworks : ""}</p>
-            </div>
+                <Footer />
+            </section>
         );
     }
    

@@ -10,6 +10,7 @@ h1.intro-title {
 
 div.intro-container {
     display: flex;
+
 }
 
 img.Travon-portrait-home {
@@ -48,10 +49,13 @@ h1.projects {
 }
 
 
-.projects-container {
+div.projects-container {
     display: flex;
     margin-bottom: 10px;
+    margin-left: 15px;
+  
 }
+
 
 div.skills {
     margin-left: 20px;
@@ -60,6 +64,29 @@ div.skills {
 div.skills-row-1, div.skills-row-2 {
     display: inline-block;
     justify-self: center;
+}
+
+div.skills2 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+@media(max-width: 750px) {
+    div.skills {
+       display: none;
+    }
+
+    div.skills2 {
+        display: flex;
+     }
+
+     div.projects-container {
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
 }
 
 @media (max-width: 680px) {
@@ -75,10 +102,10 @@ div.skills-row-1, div.skills-row-2 {
         margin: 35px;
         font-size: 25px;
     }
+    /* 
     div.skills {
         display: block;
-       
-    }
+    } */
 
     img.intro-text-img {
         height: 300px;
@@ -96,11 +123,11 @@ div.skills-row-1, div.skills-row-2 {
         text-align: center
     }
 
-    div.skills {
+    /*div.skills {
        display: flex;
        justify-content: center;
        text-align: center;
-    }
+    } */
 
     .java-logo, .python-logo, .sql-logo, .html-logo, .css-logo, .js-logo, .node-logo, .express-logo, .mongo-logo {
         height: 40px;
@@ -112,9 +139,11 @@ div.skills-row-1, div.skills-row-2 {
         width: 45px;
    }
 
+ 
+
 }
 
-@media (max-width: 520px) {
+@media (max-width: 540px) {
     .projects-container {
         flex-wrap: wrap;
         justify-content: center;
@@ -125,8 +154,10 @@ div.skills-row-1, div.skills-row-2 {
     div.skills {
         display: none;
     }
-    
 }
+
+
+
 
    
 
