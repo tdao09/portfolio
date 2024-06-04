@@ -1,25 +1,63 @@
 [
     {
         "name": "Prompty",
+        "github": "https://github.com/jacob-hitchcock/prompty.git",
         "urlParam": "Prompty",
         "languages": "JavaScript",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "frameworks": "React Native",
         "skills": "Mobile development, user research",
+        "caption": "caption",
+        "description": "A prompt-driven chatting app for intergenerational families",
+        "thumbnail": "./img/projects/prompty.png"
+    },
+    {
+        "name": "Nourished Kings",
+        "github": "https://github.com/UW-INFO442-SP23/breakfast-club.git",
+        "urlParam": "Nourished-Kings",
+        "languages": "JavaScript, HTML, CSS",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+       
+        "skills": "Front-end Development",
+        "caption": "caption",
+        "description": "A nutrition resource for food banks to create meals",
+        "thumbnail": "./img/projects/breakfast.png"
+    },
+    {
+        "name": "Rate My Study Spot",
+        "github": "https://github.com/info441-wi23/final-project.git",
+        "urlParam": "Rate-My-Study-Spot",
+        "languages": "JavaScript, HTML, CSS",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Frameworks": "Node.js, Express.js",
+        "skills": "Front-end Development, Back-end Development, MongoDB",
         "caption": "blah blah blah",
-        "description": "This is the description",
-        "thumbnail": "./img/travon.jpg"
+        "description": "A place where college students can share study spots",
+        "thumbnail": "./img/projects/study.png"
+    },
+    {
+        "name": "West Coast Tourist Sites",
+        "github": "https://github.com/info340-au22/group-ab7-project.git",
+        "urlParam": "West-Coast-Tourist-Sites",
+        "languages": "JavaScript, HTML, CSS",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Frameworks": "React",
+        "skills": "Front-end Development, Firebase",
+        "caption": "caption",
+        "description": "A resource for planning your west coast tourist trips",
+        "thumbnail": "./img/projects/west.png"
     },
     {
         "name": "Hate Crime Trends",
+        "github": "https://github.com/info201b-2021-aut/final-project-tdao09.git",
         "urlParam": "Hate-Crime-Trends",
         "languages": "R",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "frameworks": "tidyr, dplyr",
         "skills": "Data Science",
-        "caption": "blah blah blah",
-        "description": "This is the description",
-        "thumbnail": "./img/travon.jpg"
+        "caption": "caption",
+        "description": "A web app showcasing 2020 hate crime trends in the U.S.",
+        "thumbnail": "./img/projects/hatecrime.png"
     },
     {
         "name": "Prison Database",
@@ -27,45 +65,10 @@
         "languages": "SQL",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "skills": "Data modeling",
-        "caption": "blah blah blah",
-        "description": "This is the description",
-        "thumbnail": "./img/travon.jpg"
-    },
-    {
-        "name": "Nourished Kings",
-        "urlParam": "Nourished-Kings",
-        "languages": "JavaScript, HTML, CSS",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-       
-        "skills": "Front-end Development",
-        "caption": "blah blah blah",
-        "description": "This is the description",
-        "thumbnail": "./img/travon.jpg"
-    },
-    {
-        "name": "West Coast Tourist Sites",
-        "urlParam": "West-Coast-Tourist-Sites",
-        "languages": "JavaScript, HTML, CSS",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "Frameworks": "React",
-        "skills": "Front-end Development, Firebase",
-        "caption": "blah blah blah",
-        "description": "This is the description",
-        "thumbnail": "./img/travon.jpg"
-    },
-    {
-        "name": "Rate My Study Spot",
-        "urlParam": "Rate-My-Study-Spot",
-        "languages": "JavaScript, HTML, CSS",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "Frameworks": "Node.js, Express.js",
-        "skills": "Front-end Development, Back-end Development, MongoDB",
-        "caption": "blah blah blah",
-        "description": "This is the description",
-        "thumbnail": "./img/travon.jpg"
+        "caption": "caption",
+        "description": "A SQL database for WA State court and prison data",
+        "thumbnail": "./img/projects/prison.png"
     }
- 
- 
  ]
  
  

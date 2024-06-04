@@ -33,6 +33,7 @@ p.project-caption {
 
 p.project-description {
     margin-left: 5px;
+    margin-bottom: 10px;
     font-size: 18px;
     font-family: 'Segoe UI';
 }
@@ -49,6 +50,15 @@ p.project-description {
 .project-card button {
     margin-left: 5px;
 }
+
+.gh-logo {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    color: black;
+}
+
+
   
 @media (max-width: 680px) {
     .project-card {
@@ -74,6 +84,6 @@ p.project-description {
 
     p.project-description {
         font-family: 'Segoe UI';
-        font-size: 14px;
+        font-size: 18px;
     }
 }
