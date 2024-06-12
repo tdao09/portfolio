@@ -58,8 +58,16 @@ p.project-description {
     color: black;
 }
 
+a.visit {
+    color: black;
+    margin-left: 10px;
+    text-decoration: none;
+}
 
-  
+a.visit:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 680px) {
     .project-card {
         width: 335px;

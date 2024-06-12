@@ -19,6 +19,8 @@ export default function ProjectCard(props) {
             <button className="btn btn-dark project-button" onClick={handleCardClick}>Read More</button>
             
            {props.data.github?  <a href={props.data.github} target="_blank" rel="noreferrer"><FaGithub className="gh-logo" alt="Github logo"/></a>: null}
+
+           {props.data.url? <a className="visit" href={props.data.url} target="_blank" rel="noreferrer">Visit Site</a>: null}
            
         </div>
     );
