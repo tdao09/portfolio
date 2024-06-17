@@ -10,7 +10,10 @@
         "skills": "Mobile development, user research",
         "caption": "caption",
         "description": "A prompt-driven chatting app for intergenerational families",
-        "thumbnail": "./img/projects/prompty.png"
+        "thumbnail": "./img/projects/prompty.png",
+        "context": ["Prompty is an Informatics Capstone Project aimed at addressing the acculturation gap and cultivating relationships between distant immigrant families. Our goal is to provide a convenient way for families to preserve and share aspects of their life, language, and tradition with one another, despite living far away from each other."],
+        "problem": ["Generations of immigrant families have become disconnected due to the distance between them. There is currently no convenient way to preserve and share aspects of your life, language, and tradition with your family members. This generational disconnect is resulting in second-generation children losing sight of their heritage and feeling rootless as they try to balance the culture they have grown up in and the culture of their family members. Many family members, especially those who did not grow up together also have little to no knowledge of one another past the surface-level which further creates a gap. With online applications being the primary way to communicate long-distance, it can be difficult to know what to talk about, especially when you barely know the relative. Language barriers make it even harder to get to know someone online as you may have to have someone translate each conversation for you."],
+        "solution": ["Our solution is a platform that helps immigrant families connect and preserve their traditions and culture. Prompty provides containers and prompts of ideas for what you can share so you and your family can grow your connections. With our platform, families can easily share their memories, recipes, songs, and more. They can even store family photos and videos in one convenient location. Our platform is designed to be intuitive and easy to use, even for those who are not tech-savvy."]
     },
     {
         "name": "Nourished Kings",
@@ -19,11 +22,15 @@
         "urlParam": "Nourished-Kings",
         "languages": "JavaScript, HTML, CSS",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-       
         "skills": "Front-end Development",
         "caption": "caption",
         "description": "A nutrition resource for food banks to create meals",
-        "thumbnail": "./img/projects/breakfast.png"
+        "thumbnail": "./img/projects/breakfast.png",
+        "context": ["Our goal is to create an application that will guide food banks to use commonly-found food items to create nutritional meals for low income individuals in King County."],
+        "problem": ["Throughout the first ten months of 2022, the number of King County families visiting food pantries and receiving assistance from Washington state’s Supplemental Nutrition Assistance Program (SNAP) increased (King County). This trend suggests a rise in individuals from King County suffering from food insecurity."],
+        "solution": ["This solution works specifically to address the United Nations 2nd Sustainable Development Goal: Zero Hunger. In 2020, more than 30% of the world’s population were either moderately or severely suffering from food insecurity (United Nations). With the COVID-19 pandemic, the rates of people undergoing hunger have been rising, especially for children (United Nations).", 
+        
+        "Our website displays a plethora of commonly-found food items which users can filter according to their nutritional needs. Additionally, there are a collection of recommended, nutritional meals that can be easily made with the common ingredients we have identified."]
     },
     {
         "name": "Rate My Study Spot",
@@ -35,7 +42,11 @@
         "skills": "Front-end Development, Back-end Development, MongoDB",
         "caption": "blah blah blah",
         "description": "A place where college students can share study spots",
-        "thumbnail": "./img/projects/study.png"
+        "thumbnail": "./img/projects/study.png",
+        "context": ["Rate My Study Spot is an online platform where UW students can post their favorite study spots, rate/review them, and find more spots to study at."],
+        "problem": ["Finding study spots on college campuses is difficult, especially at the University of Washington where there are over 500 buildings. Study spots are where you maximize your productivity, in an environment of people with similar goals. It can be challenging to ask others where their go-to study spots are, and there’s no list of valuable spots readily-available at your fingertips. As a result, college students have to go out and discover favorable study spots themselves, which can take a long time at big campuses such as UW Seattle."],
+        "solution": ["We aim to create a safe, collaborative forum where fellow students can discuss and share their best and favorite study spots in order to help each other make critical choices that enable them to maximize productivity. Authenticated users will be able to review and rate study spots that they find around campus. Users are also able to rate and review existing spots or upload new ones if they don’t already exist in the database. College students would want to use this solution to easily discover highly-recommended study spots from their fellow peers. Once they find a study spot, they can go there and try studying there themselves. This gives them the opportunity to leave ratings as well, which can inform others and provide everyone with a representative of students’ opinions of study spots.", 
+        "As developers, we want to build this application out of our passion for the University of Washington - Seattle campus. We also want to provide fellow students the opportunity to discover the best parts of campus for studying, because we have experienced our own struggles with finding places to study."]
     },
     {
         "name": "West Coast Tourist Sites",
@@ -48,7 +59,10 @@
         "skills": "Front-end Development, Firebase",
         "caption": "caption",
         "description": "A resource for planning your west coast tourist trips",
-        "thumbnail": "./img/projects/west.png"
+        "thumbnail": "./img/projects/west.png",
+        "context": ["Have you ever wanted to travel to a state and not know what it offers? Or maybe you have visited a very interesting tourist spot and want to share it with other travelers. West Sites is an online forum where users can publish, rate, or view famous tourist sites in the following states: Washington, Oregon, and California."],
+        "problem": ["When people are planning trips to other states, they are bombarded with countless results using their favorite search engine. For example, when googling “Washington State tourist sites,” you may have multiple tabs opened for each tourist site you are interested in. This can cause cognitive overload and inhibit the trip-planning process."],
+        "solution": ["West Sites aims to solve the problem by allowing users to find tourist sites from their desired state – all in one place! They are also able to filter tourist sites by state and “type” (cultural or natural tourist sites), which was intended to make people’s “research process” smoother. Some additional features include login, which allows users to bookmark and publish tourist spots. Bookmarking comes in handy because rather than keeping a tab open for each tourist spot, they can just save them to view later. West Sites also allows user-generated content (typed reviews and 1-5 star ratings) to provide prospective tourists with conversational forums to read."]
     },
     {
         "name": "Hate Crime Trends",
@@ -61,7 +75,15 @@
         "skills": "Data Science",
         "caption": "caption",
         "description": "A web app showcasing 2020 hate crime trends in the U.S.",
-        "thumbnail": "./img/projects/hatecrime.png"
+        "thumbnail": "./img/projects/hatecrime.png",
+        "context": ["As world citizens, crime is a domain of information that we all care about and relate to. Knowing about the world situation is advantageous as we can be aware of certain dangers to avoid so we can live a peaceful and happy life.",
+    
+        "Therefore, we are interested to know about crimes that are happening all over the world with various motives. Additionally, we would like to know how crime types are distributed in different locations. It is important that we know about the kinds of crimes happening around the world so that we can think of potential problems that need the most attention and perhaps their solutions.",
+
+        "For this project, we decided to focus specifically on hate crimes, as it remains a big issue in the United States. We were interested in the motives for hate crimes (e.g. are racially-motivated hate crimes more common than gender discriminatory hate crimes?), how they are distributed across the country, and through time.",
+
+        "Many countries have reported official hate crime data to the ODIHR. Fortunately, these countries have also passed legislation to address the under-reporting of hate crimes, to investigate, prevent, and prosecute hate crimes, and provide penalties for them. They have also committed to collecting and maintaining data on hate crimes as well as make them public. The ODIHR website contains hate crimes that have been reported to them by these nations. (Source: https://hatecrime.osce.org/index.php/hate-crime-data)"
+    ]
     },
     {
         "name": "Prison Database",
@@ -72,7 +94,16 @@
         "skills": "Data modeling",
         "caption": "caption",
         "description": "A SQL database for WA State court and prison data",
-        "thumbnail": "./img/projects/prison.png"
+        "thumbnail": "./img/projects/prison.png",
+        "context": ["The topic we chose for our database space is an analysis of incarceration trends. Incarceration rates are a major problem in the U.S. - the U.S. consists of 5% of the world’s population but houses 50% of the world’s prison population. The prison population demographic is a reflection of racial inequality imposed by the prison industrial complex, disproportionately affecting African-American and Latinx communities specifically.",
+
+        "Generational poverty persist from the era in which overt discrimination against minority groups confined them to poorly funded areas. Lower socioeconomic status is a high predictor of crime. Discrimination in the judicial system poses a threat as well. Not only do police arrest minorities at a higher rate, but African-Americans, Latinos, and Native Americans are more likely to be convicted, and to have longer sentences compared to their white counterparts. Such inequalities in the prison system strengthen racial stereotypes and lead to increased racial disparity. These stunt the growth of certain minority groups by limiting their opportunities as well as leaving them in less desirable socioeconomic situations. Hence, the cycle of poverty and crime continues.", 
+        
+        "This leads to our main problem statement: Which areas in the US show high incarceration rates, and in said areas, are African-American and Latino populations overrepresented? Among regions, states, and the different types of counties (categorized by their size), we intend to analyze which areas exemplify the most racial bias in incarceration.", 
+
+        "The typical users of the database would be government and/or public service workers. Policymakers and government officials could use it as a springboard to investigate the issue in the hopes of reducing racial discrimination in incarceration. For example, they may place new policies to ensure that law enforcement does not overly target marginalized groups. Furthermore, they could direct more funding and support to underserved communities which have higher incarceration rates, therefore giving more access to social mobility and preventing the turn to crime in the first place. This data would be of interest to non-profit organizations and public health experts as well - high poverty and crime rates have adverse effects on public health, with inhabitants of the area being more prone to suffer from health problems and injuries.",
+        
+        "Some of the decisions that the aforementioned users will make based on the database will be as policy makers. Backed by data, they will be able to enact effective political change to reduce discrimination in the justice system. Data allows objective and quantitative viewing of discrepancies in society, which then helps validate marginalized experiences. Societal issues are less likely to be ignored with real data tailored to each community readily available. With new policies in effect, there will be a reduced incarceration rate, proportional to the U.S. population. Such effort will also further the cause of achieving racial justice for minority groups."]
     }
  ]
  

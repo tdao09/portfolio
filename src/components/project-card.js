@@ -10,6 +10,7 @@ export default function ProjectCard(props) {
         navigation("/project?name=" + props.data.urlParam);
    }
 
+
     return(
         <div className="project-card" id={`${props.data.name}-project`}>
             <img src={props.data.thumbnail} alt={`${props.data.name} project card`}/>
